@@ -1117,7 +1117,17 @@ module.exports = [
   { name: 'one-way analysis of variance', map: '9revsY3LMPJRxAqkN6vBmqSMCvpyzEsjyXCZEpsN' },
   { name: 'CSS3', map: 'vywFKt4WUVms6cz9zoBsqDbshXRAsSMFUV5uhx1G' },
   { name: 'CSS flexbox', map: 'nUxJ73jRG36gaBQVMJyui8NKVn6retMEmzzjhWuf' },
-  { name: 'Finnish language', map: 'xs45rPpjxYn8H5QCKuCYz14zSDiD4jJXWSgzy3z2' },
+  { name: 'finnish language', map: 'xs45rPpjxYn8H5QCKuCYz14zSDiD4jJXWSgzy3z2' },
   { name: 'stochastic control', map: 'vqMmpb4y1YYyhBFNfeEYaqFHBSSMUmM2nNfyyjsJ' },
+  { name: 'preact', map: 's6r2X9DuxzoqMHHufvxsN8HLUWg1yLEDZfpsTfWL' },
+  { name: 'forward contracts', map: '1nRUrpUyb8vG81ef9mSsPMqp99BrL2tK1qwHMhCb' },
+  { name: 'futures contracts', map: 'sRHspsAfjsYYyhMvy8hQR8o6TzFeRxeqtaZTbsMs' },
+  { name: 'PySpark', map: 'JctvrYTmBCiaH8nbpvSxDNpyLhCZDLqh7Vqs1hRz' },
+  { name: 'membrane potential', map: '824KV1xsT5VyqSLaQGx7UGFVduw39ShVNky9jpjd' },
+  { name: 'neurons', map: 'hXSgLbD5XiMSv1kskQxpiXsrjQDBWwpfDXXm2VBZ' },
+  { name: 'synapses', map: 'zyyA7hdi28C5B5H76NQXfkcuJvKccsLsyEQD32dS' },
+  { name: 'neurogenesis', map: 'oEdtqgcLTeXgKyykeuE8Fsz9hzJEa6z4KKjhcCzS' },
+  { name: 'behaviour analysis', map: 'sxN1ucW3hgAyNeYEzNiMqpmoza7iP4vkmWFYaUL4' },
+  { name: 'NativeScript', map: 'VAixDNeykUvpK4whng87Hosq27Hyq6ALsagcPJ8s' },
 ];
 
