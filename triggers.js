@@ -1144,5 +1144,13 @@ module.exports = [
   { name: 'skin care', map: 'CpDorL17bzJX9zwFgSfcMnpA8HZXQgGEBGDRwyJF' },
   { name: 'funtoo distro', map: 'DXessrycNQb9QQ9YcgffA8VvYhkcrSZ7zyRpRpNa' },
   { name: 'gentoo distro', map: 'piQGZGg7GghsLDH6Ts6Ev5ut77xJM76hj1eryKDf' },
+  { name: 'comedy', map: 'Tir6tzsrTSqJ68vuhTf2x1ohGyj2rCpqCh2fXP6N' },
+  { name: 'frege programming language', map: 'UCnnyuQfJVyz2hxqa4u2xMNmXcMLqH2p8eXHy1Lq' },
+  { name: 'blues', map: 'eK4mzUfUxcwLJ88N6aMMfhsCdgzmgdzKz1VzSLz9' },
+  { name: 'domain-driven design', map: 'y2zGZDqqrXtquEiA73T5a33q7S3d2WMhHk1x12iG' },
+  { name: 'new ideas', map: 'NuzPCdEi4MssdSyppeAzxvqLxzKmW2aRzWxZ7Lsy' },
+  { name: 'ideas', map: 'pygdU7pR8BxuxSXYF3xVoCencKxK5YbJYzabnHAy' },
+  { name: 'simple living', map: 'CEVm7uUkfaqzvyDUKRSCTnsxKtzYwRBU6wTpgN5j' },
+  { name: 'factorio', map: 'cm6seeVzxTjQLCkoAPkfwcMhzzY7pcUAqPWAvWnx' },
 ];
 
