@@ -1159,5 +1159,11 @@ module.exports = [
   { name: 'angularJS', map: 'QYBozsiUWZjbqguqyKSUV3psfhganW7PB1Wapxax' },
   { name: 'musical instruments', map: 'gqiNFaWGobPy7ehkSvJ7LPtSnz93cXbqT5pwmQ9Z' },
   { name: 'synthesisers', map: 'csQtqN4tc1hzHRpqqS9zdn3bzqc59JUaxh7MwK6C' },
+  { name: 'go interfaces', map: 'gsyrNyyyPwiS1wiYqMdzoDrbeE9zLphxGSXYVtu2' },
+  { name: 'linear logic', map: 'E54B4hL24K8ehGzQA1nQbxChAzpyW7q2bsLMNkAm' },
+  { name: 'gradual typing', map: 'fR9ym3VzCzEMNqMtCzSTNYKZ9pArhjw7pAeh97vE' },
+  { name: 'process calculus', map: '8sXxupmKzvXxP8fprfUwxa9SbgUBkpeqxYw7ZFzd' },
+  { name: 'pi calculus', map: 'nd2EUpPSErexy7xiGGtfKskLcbypwLGR4yHQ9nxt' },
+  { name: 'session types', map: '7uraxoV1ypALnxcGgy71Zzu7t2YroAAqRPFAF5PJ' },
 ];
 
