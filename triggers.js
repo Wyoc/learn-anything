@@ -1165,5 +1165,10 @@ module.exports = [
   { name: 'process calculus', map: '8sXxupmKzvXxP8fprfUwxa9SbgUBkpeqxYw7ZFzd' },
   { name: 'pi calculus', map: 'nd2EUpPSErexy7xiGGtfKskLcbypwLGR4yHQ9nxt' },
   { name: 'session types', map: '7uraxoV1ypALnxcGgy71Zzu7t2YroAAqRPFAF5PJ' },
+  { name: 'sustainability', map: 'LEKzvEJH5bVkGZZ7mePDRGuqzLxvs6HRJjRCapJN' },
+  { name: 'adobe lightroom', map: '9pxzz6aJhfMVyUnKNx7AyrgToMgqLXspTE52fLW1' },
+  { name: 'autodesk 3D design', map: '7mCzDwNguTbT4i8zC5Hj7XLPmfSVTPobpHe6K6qN' },
+  { name: 'facebook', map: 'qL89wUHsEG3Eo8WxitqCeReeBhxUmxspgqSjvGja' },
+  { name: 'leadership', map: 'kHLYeQpVebbTeVkKK23pmCc2qqwhjsxDUNspBugC' },
 ];
 
