@@ -1294,5 +1294,12 @@ module.exports = [
   { name: 'branding', map: 'sBBx67GukVYYs4Uki4s1PqjrJY35jEJWe8xpBu1z' },
   { name: 'cloud computing', map: 'LzjyjVYrG71xcmnNarSMbYAhR8ip58z6eS3fzfo5' },
   { name: 'continuous integration', map: 'Spim2n6dSkxHVpLwYZDWgbKzwwwKD9LEpTpJH3ru' },
+  { name: 'mojs motion graphics library', map: 'xsB62sMiy2eeZnJVuXfNsWHfQv7Vym1sgTpKGxpZ' },
+  { name: 'chrome dev tools', map: 'd1BQTwq1d9n3UVFWgxzfExqmXzkq6ZzHFT2SVTf5' },
+  { name: 'debugging', map: 'F8Y19sWJLSVY6ZxvFRJgjZKEGx9cXH9DpkRxWujq' },
+  { name: 'startup funding', map: 'jmNdqeJVEAsTaS2SFA3tsDWV1kR5mt9QzPxviRm2' },
+  { name: 'evolutionary psychology', map: 'Khs72YTodypfHLXzx242oDzr9pyg6VyENipKTN2h' },
+  { name: 'creative writing', map: 'TttxKDFfhjjmno2yspaxYiDHZqKKz6Xqqd2rhyyg' },
+  { name: 'fingerstyle guitar', map: 'ibCbkmKwyxUTGmzxBhiF2uU5GuHpxXgDv2dUMNbc' },
 ];
 
