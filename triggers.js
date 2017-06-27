@@ -1301,5 +1301,6 @@ module.exports = [
   { name: 'evolutionary psychology', map: 'Khs72YTodypfHLXzx242oDzr9pyg6VyENipKTN2h' },
   { name: 'creative writing', map: 'TttxKDFfhjjmno2yspaxYiDHZqKKz6Xqqd2rhyyg' },
   { name: 'fingerstyle guitar', map: 'ibCbkmKwyxUTGmzxBhiF2uU5GuHpxXgDv2dUMNbc' },
+  { name: 'spectral theory', map: 'LxnDuZ4mYiNxP4Gd6VEx3aUKE2PJhoWGsiUd1SRh' },
 ];
 
