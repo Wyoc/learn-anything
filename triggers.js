@@ -1167,7 +1167,7 @@ module.exports = [
   { name: 'session types', map: '7uraxoV1ypALnxcGgy71Zzu7t2YroAAqRPFAF5PJ' },
   { name: 'sustainability', map: 'LEKzvEJH5bVkGZZ7mePDRGuqzLxvs6HRJjRCapJN' },
   { name: 'adobe lightroom', map: '9pxzz6aJhfMVyUnKNx7AyrgToMgqLXspTE52fLW1' },
-  { name: 'autodesk 3D design', map: '7mCzDwNguTbT4i8zC5Hj7XLPmfSVTPobpHe6K6qN' },
+  { name: 'autodesk 3ds max', map: 'ryoBxyq66iwpWJzA9yxWHxb6bak3TtktaNzWQoHs' },
   { name: 'facebook', map: 'qL89wUHsEG3Eo8WxitqCeReeBhxUmxspgqSjvGja' },
   { name: 'leadership', map: 'kHLYeQpVebbTeVkKK23pmCc2qqwhjsxDUNspBugC' },
   { name: 'Maxwell’s equations', map: 'fycRkZyHygDvyfpJrbYf3SZziTDZjArZRsuDpdn5' },
@@ -1302,5 +1302,11 @@ module.exports = [
   { name: 'creative writing', map: 'TttxKDFfhjjmno2yspaxYiDHZqKKz6Xqqd2rhyyg' },
   { name: 'fingerstyle guitar', map: 'ibCbkmKwyxUTGmzxBhiF2uU5GuHpxXgDv2dUMNbc' },
   { name: 'spectral theory', map: 'LxnDuZ4mYiNxP4Gd6VEx3aUKE2PJhoWGsiUd1SRh' },
+  { name: 'texture mapping', map: 'MrGas8o9VhY54GJvzyzQWwqp1TQzAX5vwPhYsoR2' },
+  { name: 'event management', map: 'r694FjzzGrt8U1udfDsnDz7jLxsW61xiHBasRuWH' },
+  { name: 'loss functions', map: 'zvZX4FNytFqdhLmuCHoj45J1tinLKjeSMbQ6VVpR' },
+  { name: 'cognitive biases', map: 'csqS9stf64qzDgtDYjGgaXe8TqZJjqJq5zLq5YqR' },
+  { name: 'cognitive dissonance', map: 'cmk4fh551FmyBm5Eg3vAbj9zruxk3W41XNreG4v' },
+  { name: 'social skills', map: '2ymNKBdN4BwVNZoKscDRCNXzfqLwMSNfqRw4pkye' },
 ];
 
