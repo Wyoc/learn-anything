@@ -1335,5 +1335,13 @@ module.exports = [
   { name: 'influenza', map: '3igcVCXipErFygZy21WwjvfqaQkU13qxGbEE1Ten' },
   { name: 'tuberculosis', map: 'opXtVhyVGTV19TuHpKYUbAN6yvt3DcuFFKbSiMQm' },
   { name: 'nnabla library', map: 'CwkzqyG8yypsZKSomVWviKx6nsBB9xbRxuaiqoHc' },
+  { name: 'system administration', map: 'p8GZ97vV7RR32p42pnJQbXH1QeF2nrXYje4TdywP' },
+  { name: 'harmonica', map: 'R5ws3umUrqBPZpyXNAyLCEoeRYeuzusjM1qDtENr' },
+  { name: 'openshift origin', map: 'tsg8CJDALgBMGjguSTy4W83hMKbZxuFxxD63SNHX' },
+  { name: 'pharmacology', map: 'FiZCCism6MpCos4zEy19YcmHqMgp18aj1Fy67ErH' },
+  { name: 'path tracing', map: '4urox8eyCpZY5UBmCtGHVZ5vzVLgoeGtKvsgdNTi' },
+  { name: 'Qt framework', map: 'zFgh78qkBQbkqFTJaKfhopnsp3UascceN6PCmTVd' },
+  { name: 'FreeBSD', map: 'iKEq3yqQgKqiEkoTq8bkcA1Lsxs217FGVbvRrxKG' },
+  { name: 'interaction design', map: '61DehkAXdcqPzDJDnvRqYzEyqR7T3SjBP1pfous8' },
 ];
 
