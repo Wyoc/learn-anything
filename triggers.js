@@ -1343,5 +1343,9 @@ module.exports = [
   { name: 'Qt framework', map: 'zFgh78qkBQbkqFTJaKfhopnsp3UascceN6PCmTVd' },
   { name: 'FreeBSD', map: 'iKEq3yqQgKqiEkoTq8bkcA1Lsxs217FGVbvRrxKG' },
   { name: 'interaction design', map: '61DehkAXdcqPzDJDnvRqYzEyqR7T3SjBP1pfous8' },
+  { name: 'Xamarin', map: 'gVywARPMQCPNbBBAwYszzip5Sp45SXyeUbeqFCey' },
+  { name: 'salesforce', map: 'jaFJzDmo1kQDMSdEKcyrkzshrsyUkcf8jyd9xYp9' },
+  { name: 'heroku', map: 'fzprrVSairk8ugNKs9LU7u8BHmgQqjaMN4AkYS9X' },
+  { name: 'digital ocean', map: 'LWKzjnG6UFzMMpxyyj18KNnavyQuvoeDAosbxrmT' },
 ];
 
