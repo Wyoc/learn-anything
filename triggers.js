@@ -1469,7 +1469,7 @@ module.exports = [
   { name: 'CSS grid layout', map: 'https://my.mindnode.com/GAyY2suwsJjbyUcZ1fQKbJW31YqiWS4i4EvJaUqr' },
   { name: 'latvian language', map: 'https://my.mindnode.com/TDxUqW4QKqdpGbesP2kdJj8qayCYyK1NUxcaFMRn' },
   { name: 'PageRank algorithm', map: 'https://my.mindnode.com/ZN84T6qfxAFR3sKpFcPDpmpvH8BGXGq14Rktx9eU' },
-  { name: '', map: '' },
+  { name: 'A* search algorithm', map: 'https://my.mindnode.com/Njv2btz9imxkB8yqNUTqXgm3z3p9G3DDwEUZtGXE' },
   { name: '', map: '' },
   { name: '', map: '' },
   { name: '', map: '' },
