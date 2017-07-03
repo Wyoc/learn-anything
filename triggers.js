@@ -1468,7 +1468,7 @@ module.exports = [
   { name: 'quadratic equations', map: 'https://my.mindnode.com/8v59yezgq2GsDNcw8a7cETsPx9VUoxacogDQ3RqD' },
   { name: 'CSS grid layout', map: 'https://my.mindnode.com/GAyY2suwsJjbyUcZ1fQKbJW31YqiWS4i4EvJaUqr' },
   { name: 'latvian language', map: 'https://my.mindnode.com/TDxUqW4QKqdpGbesP2kdJj8qayCYyK1NUxcaFMRn' },
-  { name: '', map: '' },
+  { name: 'PageRank algorithm', map: 'https://my.mindnode.com/ZN84T6qfxAFR3sKpFcPDpmpvH8BGXGq14Rktx9eU' },
   { name: '', map: '' },
   { name: '', map: '' },
   { name: '', map: '' },
