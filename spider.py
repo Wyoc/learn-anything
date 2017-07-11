@@ -16,25 +16,25 @@ def parse_urls(filename):
         Return map IDs converted from triggers.js file and convert them to URLs
         for fetching JSON data.
     """
-    with open(url, ‘r’) as triggers_file:
-        data = ‘’.join(triggers_file.readlines())
+    with open(filename, 'r') as triggers_file:
+        data = ''.join(triggers_file.readlines())
 
         # Remove all that is before and after the triggers list.
-        data = re.sub(r’.*\[‘, ‘[’, data)
-        data = re.sub(r’\].*‘, ‘]’, data)
+        data = re.sub(r'.*\[','[', data)
+        data = re.sub(r'\].*', ']', data)
 
         # Convert IDs to URLs
-        template = r’https://my.mindnode.com/\g<1>.json’
-        data = re.sub(r’map: \‘(.{40}).*\‘’, ‘map: “{}“‘.format(template), data)
+        template = r'https://my.mindnode.com/\g<1>.json'
+        data = re.sub(r'map: \'(.{40}).*\'', 'map: "{}"'.format(template), data)
 
         # Add quotes to attributes and convert single quotes to double quotes.
-        data = re.sub(r’(name|map):‘, r’“\g<1>“:‘, data)
-        data = re.sub(‘\’‘, ‘“’, data)
+        data = re.sub(r'(name|map):', r'"\g<1>":', data)
+        data = re.sub('\'', '"', data)
 
         # Remove trailing comma
-        data = re.sub(r’},\n]‘, r’}\n]‘, data)
+        data = re.sub(r'},\n]', r'}\n]', data)
 
-        return [el[‘map’] for el in json.loads(data)]
+        return [el['map'] for el in json.loads(data)]
     return None
 
 
@@ -42,22 +42,22 @@ class MindNodeSpider(scrapy.Spider):
     """
         MindNode Spider, scrapes maps from MindNode.
     """
+    name = 'MindNode Spider'
 
     def __init__(self, filename= '', *args, **kwargs):
         super(MindNodeSpider, self).__init__(*args, **kwargs)
-        self.name = ‘MindNode Spider’
         self.start_urls = parse_urls(filename)
 
     def parse(self, response):
         data = json.loads(response.body_as_unicode())
 
-        filename = data[‘title’].replace(' - ‘, ‘/’).replace(' ‘, ‘-’)
-        filename = ‘maps/{}.json’.format(filename)
+        filename = data['title'].replace(' - ', '/').replace(' ', '-')
+        filename = 'maps/{}.json'.format(filename)
 
         if not path.exists(path.dirname(filename)):
             makedirs(path.dirname(filename))
 
-        with open(filename, ‘w’) as map_file:
-            map_file.write(response.body.replace(‘https://my.mindnode.com’, ‘/id’))
+        with open(filename, 'w') as map_file:
+            map_file.write(response.body.replace('https://my.mindnode.com', '/id'))
 
-        yield {‘id’: data[‘token’], ‘title’: data[‘title’]}
+        yield {'id': data['token'], 'title': data['title']}
