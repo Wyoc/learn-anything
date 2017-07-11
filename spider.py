@@ -17,24 +17,9 @@ def parse_urls(filename):
         for fetching JSON data.
     """
     with open(filename, 'r') as triggers_file:
-        data = ''.join(triggers_file.readlines())
+        template = 'https://my.mindnode.com/{}.json'
+        return [template.format(el['map'][0 : 40]) for el in json.load(triggers_file)]
 
-        # Remove all that is before and after the triggers list.
-        data = re.sub(r'.*\[','[', data)
-        data = re.sub(r'\].*', ']', data)
-
-        # Convert IDs to URLs
-        template = r'https://my.mindnode.com/\g<1>.json'
-        data = re.sub(r'map: \'(.{40}).*\'', 'map: "{}"'.format(template), data)
-
-        # Add quotes to attributes and convert single quotes to double quotes.
-        data = re.sub(r'(name|map):', r'"\g<1>":', data)
-        data = re.sub('\'', '"', data)
-
-        # Remove trailing comma
-        data = re.sub(r'},\n]', r'}\n]', data)
-
-        return [el['map'] for el in json.loads(data)]
     return None
 
 

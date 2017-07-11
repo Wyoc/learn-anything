@@ -1,6 +1,6 @@
 const fs = require('fs');
 const lookup = require('./server/lookup.json');
-const triggers = require('./triggers.js');
+const triggers = require('./triggers.json');
 
 const lookupTable = {};
 const triggersTitle = [];
