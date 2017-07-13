@@ -3,11 +3,11 @@ const compression = require('compression');
 const readFileSync = require('fs').readFileSync;
 const express = require('express');
 const dot = require('dot');
-const AWS = require('aws-sdk');
+// const AWS = require('aws-sdk');
 
-// Load AWS configuration file.
-AWS.config.loadFromPath(`${__dirname}/AWSConfig.json`);
-const docClient = new AWS.DynamoDB.DocumentClient();
+// // Load AWS configuration file.
+// AWS.config.loadFromPath(`${__dirname}/AWSConfig.json`);
+// const docClient = new AWS.DynamoDB.DocumentClient();
 
 const isDev = process.env.NODE_ENV !== 'production';
 const app = express();
