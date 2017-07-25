@@ -32,6 +32,8 @@ export default class Sidebar extends Component {
           <div onClick={login} className="sidebar-menu-item">
             Login
           </div>
+        </div>
+        <div className="sidebar-menu-block">
           <div onClick={this.toggleVisibility} className="sidebar-menu-item">
             Themes 🖌
           </div>
