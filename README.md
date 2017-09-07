@@ -1,21 +1,39 @@
-# Learn Anything
-[![slack badge](https://img.shields.io/badge/Slack-channel-green.svg)](https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ)
-[![travis badge](https://travis-ci.org/learn-anything/learn-anything.svg?branch=master)](https://travis-ci.org/learn-anything/learn-anything)
-[![license badge](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/learn-anything/learn-anything/blob/master/LICENSE)
+<div align="center">
+<h1 align="center">Learn Anything 🔎</h1>
+<a href="https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ">
+		<img src="https://img.shields.io/badge/Slack-💬-green.svg">
+	</a>
+		<a href="https://travis-ci.org/learn-anything/learn-anything">
+		<img src="https://travis-ci.org/learn-anything/learn-anything.svg?branch=master">
+	</a>
+		<a href="https://www.patreon.com/learnanything">
+		<img src="https://img.shields.io/badge/Support%20Us-💗-ff69b4.svg">
+	</a>
+	<a href="https://twitter.com/learnanything_">
+		<img src="https://img.shields.io/twitter/follow/learnanything_.svg?style=social&label=Follow&style=flat-square">
+	</a>
+	<a href="https://github.com/learn-anything/learn-anything/blob/master/LICENSE">
+		<img src="https://img.shields.io/pypi/l/pipenv.svg">
+	</a>
+	<a href="https://learn-anything.xyz/learn-anything">
+    <img width="400" heigth="400" src="media/logo.png">
+  </a>
+</div>
+
 
 This is the main code-base that powers [learn-anything.xyz](https://learn-anything.xyz).
 
 If you want to know more about what we're trying to solve, our plans for the
 future, how to improve the maps, and more you can check the [wiki](https://github.com/learn-anything/maps/wiki).
 
-<img src="https://raw.githubusercontent.com/learn-anything/img/master/i_want_to_learn.mp4.gif" alt="img" height="400">
+<h1 align="center">Getting Started</h1>
 
-
-## Getting Started
 These instructions will allow you to set up your own instance of Learn Anything
 to develop with.
 
-### Dependencies
+
+<h2 align="center">Dependencies </h2>
+
 Elasticsearch is needed for fetching maps and suggestions on the website. On
 Linux you can download and run it with the following commands.
 
@@ -23,7 +41,9 @@ Linux you can download and run it with the following commands.
     tar -zxf elasticsearch-5.5.2.tar.gz
     ./elasticsearch-5.5.2/bin/elasticsearch
 
-### Running
+
+<h2 align="center">Running </h2>
+
 Once you have Elasticsearch up and running you can start your local instance of
 Learn Anything with the commands below.
 
@@ -39,12 +59,14 @@ The first time it may take a while, since all maps will be added to elasticsearc
 After that only `npm start` will be needed.
 
 
-## Testing
+<h1 align="center">Testing </h1>
+
 To run automated tests you can use either `npm test` or `npm run test:watch`.
 For now the tests are covering only reducers, action creators, and components.
 
 
-## API
+<h1 align="center">API </h1>
+
 Our API is still work in progress, as there will be more endpoints coming in the
 future, but for now here's a list of all endpoints.
 
@@ -96,11 +118,12 @@ Get a specific map by ID. Maps have the following format:
 Get a specific map from its path. The format is the same as the one above.
 
 
-## Contributing
+<h1 align="center"> Contributing 💛</h1>
+
 If you want to help, you're stuck somewhere, or just want to have a chat with us, you can join our [Slack channel](https://knowledge-map.slack.com/).
 
 
-## Team
+<h2 align="center">Current Team</h2>
 <table>
   <tbody>
     <tr>
