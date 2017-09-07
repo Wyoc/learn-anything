@@ -15,13 +15,11 @@
 	</a>
 	<a href="https://github.com/learn-anything/learn-anything/blob/master/LICENSE">
 		<img src="https://img.shields.io/pypi/l/pipenv.svg">
-	</a>
-	
-<a href="https://learn-anything.xyz/learn-anything">
-    <img width="400" heigth="400" src="media/logo.png">
- </a>
- 
+	</a> 
 </div>
+ 
+<p align="center"><img width="400"  src="media/logo.png" alt="img"></p>
+
 
 
 This is the main code-base that powers [learn-anything.xyz](https://learn-anything.xyz).
