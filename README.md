@@ -1,5 +1,6 @@
 <div align="center">
-<h1 align="center">Learn Anything 🔎</h1>
+<h1><a href="https://learn-anything.xyz"> Learn Anything 🔎</h1>
+
 <a href="https://knowledge-map.slack.com/shared_invite/MTgxNTYzMjIzNjM5LTE0OTQzMzA4MDAtYzY1YWY0ZDc0NQ">
 		<img src="https://img.shields.io/badge/Slack-💬-green.svg">
 	</a>
@@ -15,6 +16,7 @@
 	<a href="https://github.com/learn-anything/learn-anything/blob/master/LICENSE">
 		<img src="https://img.shields.io/pypi/l/pipenv.svg">
 	</a>
+	
 	<a href="https://learn-anything.xyz/learn-anything">
     <img width="400" heigth="400" src="media/logo.png">
   </a>
