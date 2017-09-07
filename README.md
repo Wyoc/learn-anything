@@ -17,9 +17,10 @@
 		<img src="https://img.shields.io/pypi/l/pipenv.svg">
 	</a>
 	
-	<a href="https://learn-anything.xyz/learn-anything">
+<a href="https://learn-anything.xyz/learn-anything">
     <img width="400" heigth="400" src="media/logo.png">
-  </a>
+ </a>
+ 
 </div>
 
 
