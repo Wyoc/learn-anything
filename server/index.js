@@ -32,7 +32,7 @@ if (process.env.NODE_ENV !== 'production') {
 app.use(compression({ threshold: 0 }));
 
 // Static files and api router.
-app.use(express.static('client/public'));
+app.use(express.static('client/resources'));
 app.use(express.static('client/dist'));
 app.use('/api', api);
 
@@ -41,6 +41,7 @@ app.use('/api', api);
 const render = dot.template(readFileSync(`${__dirname}/../client/index.html`));
 
 // :lang([a-z]{2})?*
+// Todo redirect urls with map IDs to urls with map paths :map-id([0-9])*
 app.get('*', (req, res) => {
   let title = req.originalUrl.replace(/\?.*/, '');
 

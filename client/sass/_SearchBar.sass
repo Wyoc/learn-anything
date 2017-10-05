@@ -1,117 +1,106 @@
 @import variables
 
+
 %field
-  background-color: $grey300
   border: 0
-  border-radius: 5px
-  box-shadow: $shadow
-  color: $grey700
   display: block
-  font-size: 2em
+  font-size: 1.5em
   margin: 0 auto
   max-width: 500px
-  padding: 10px
-  transition: box-shadow .218s, background-color .218s, color .218s
+  padding: 7px 25px
   width: 100%
 
   &:focus
-    background-color: $grey200
-    box-shadow: $shadow-active
-    color: $grey900
     outline: none
-
-.searchbar-container
-  padding: 10px 5px
-  position: absolute
-  top: 30%
-  width: 100%
-
-  .helpText
-    line-height: 1.8rem
-    margin-top: 40px
-    text-align: center
-
-  &::before
-    color: $grey300
-    content: 'I want to learn'
-    display: block
-    font-size: 3em
-    font-weight: bold
-    margin-bottom: 20px
-    text-align: center
-
-.react-autosuggest__suggestions-container
-  margin: -5px auto
-  max-height: 210px
-  max-width: 500px
-  overflow-y: auto
-  position: relative
-
-  &::before
-    border-radius: 0 0 5px 5px
-    bottom: 0
-    box-shadow: $shadow-active
-    content: ''
-    left: 0
-    position: absolute
-    right: 0
-    top: 0
-    z-index: -1
 
 ::-webkit-scrollbar // sass-lint:disable-line no-vendor-prefixes
   display: none
 
-.searchbar-container--exploring
-  position: initial
 
-  &::before
-    display: none
+// _container
+.searchbar-container--docked
+  display: inline-block
+  padding: 10px 5px
 
-  .react-autosuggest__suggestions-container
-    left: 50%
-    position: absolute
-    transform: translateX(-50%)
-    width: 100%
 
-  .helpText
-    display: none
+// _suggestions_title
+.searchbar-suggestions-title
+  @extend %field
+  background-color: $iron
+  border-radius: 3px 3px 0 0
+  color: $bombay
+  display: none
+  font-size: .8em
+  font-weight: bold
+  padding: 15px 25px 5px
+  text-transform: uppercase
 
-  .react-autosuggest__input
-    +respond-to(610px)
-      margin: 0
-      width: calc(100% - 50px)
+.react-autosuggest__container--open
+  .searchbar-suggestions-title
+    display: block
 
-  +respond-to($width-small)
-    z-index: 1
 
+// _suggestions container
+.searchbar-suggestions-container
+  margin: -2px auto
+  max-height: 40vh
+  max-width: 500px
+  overflow-y: auto
+  position: relative
+
+
+// _input_field
+.searchbar-input
+  @extend %field
+  border-radius: 3px
+  color: $azure-radiance
+  font-weight: bold
+  padding: 15px 25px
+
+  &::placeholder
+    color: $edward
+    font-weight: normal
+
+.searchbar-input--docked
+  font-size: 1.2em
+  margin: 0
+  padding: 10px 20px
+  width: 350px
+
+  & + .searchbar-suggestions-container
+    margin: 7px 0
+    width: 350px
+
+
+// _suggestions
 .react-autosuggest__suggestion
   @extend %field
-  background-color: $grey200
-  border-radius: 0
-  box-shadow: none
-
-  &:first-child
-    padding-top: 15px
+  background-color: $iron
 
   &:last-child
-    border-radius: 0 0 5px 5px
+    border-radius: 0 0 3px 3px
 
-  div
-    color: $grey700
+  a
+    color: $shark
+
+    span
+      display: inline-block
+
+  .searchbar-suggestion-key
+    font-size: .8em
+    width: 80%
+
+  .searchbar-suggestion-nodes-count
+    color: $oslo-gray
+    font-size: .6em
+    text-align: right
+    width: 20%
 
 .react-autosuggest__suggestion--highlighted
-  background-color: $grey400
+  background-color: $silver
 
-  div
-    color: $grey900
 
-.react-autosuggest__input
-  @extend %field
-
+// _suggestions_list
 .react-autosuggest__suggestions-list
   margin: 0
   padding: 0
-
-body
-  +respond-to($width-small)
-    font-size: 12px

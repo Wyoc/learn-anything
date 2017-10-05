@@ -6,106 +6,81 @@
   font-family: 'Raleway', sans-serif
 
 body
+  background-color: $shark
   margin: 0
 
   +respond-to($width-small)
     font-size: 12px
 
+header
+  background: linear-gradient(to bottom, $cape-cod 0%, $shark 105%)
+  display: flex
+  height: 60px
+
+  // SVG container
+  & + div
+    display: flex
+
 footer
-  bottom: 0
-  padding: 10px
-  position: absolute
-  width: 100%
+  bottom: 20px
+  left: 25px
+  position: fixed
+
+  .footer-separator,
+  a
+    color: $cape-cod
+    cursor: pointer
+    font-weight: bold
+    text-underline-position: under
 
   a
-    margin-right: 20px
-    text-decoration: none
-    z-index: -1
+    text-decoration: underline
 
-    span
-      font-weight: bold
-      vertical-align: 4px
-
-.thank-you:hover
-  svg
-    fill: $deep-orange-a400
-
-  span
-    color: $deep-orange-a400
-
-.map:hover
-  svg
-    fill: $orange-a400
-
-  span
-    color: $orange-a400
-
-
-.emoji-reference:hover
-  cursor: default
-
-  & + .emoji-reference-container
-    display: block
-
-.emoji-reference-container
-  bottom: 50px
-  display: none
-  left: 3%
-  position: absolute
-
-.emoji-reference-table
-  border-radius: 10px
-  box-shadow: $shadow-active
-  padding: 15px 10px
-
-.emoji-reference-icon
-  height: 24px
-  padding: 2px
-  width: 24px
-
-
-.patreon-link
-  color: $purple-500
-
-.thank-you-text
-  margin: 0
-  padding: 20px
-  text-align: center
-
-  & + span
-    vertical-align: 6px
-
-.twitter:hover
-  g
-    fill: $twitter-blue
-
-  span
-    color: $twitter-blue
-
-.emoji-reddit
-  border-radius: 50%
+  .footer-separator
+    margin: 0 15px
 
 
 .mindmap-svg
-  height: calc(100vh - 142px)
+  height: calc(100vh - 60px)
 
   +respond-to($width-small)
     height: calc(100vh - 134px)
 
 .mindmap-node
-  p:hover
-    background-color: $grey500
-
   p,
   a
-    color: $grey900
+    background-color: $white
+    border-radius: 3px
+    box-shadow: none
+    color: $black
     text-decoration: none
 
-.twitter,
-.thank-you,
-.octocat > span
-  +respond-to($width-extra-small)
-    display: none
+.mindmap-subnode-group > a
+  color: $white
+
+.mindmap-connection
+  stroke: $tuna
+  stroke-dasharray: none
+
+
+.la-title
+  color: $white
+  display: block
+  font-size: 3em
+  font-weight: bold
+  margin-bottom: 40px
+  margin-top: 12vh
+  text-align: center
+
+.helpText
+  color: $regent-gray
+  line-height: 1.8rem
+  margin-top: 40px
+  text-align: center
+
+  a
+    color: $regent-gray
+    text-underline-position: under
 
 
 @keyframes scaleout
@@ -123,3 +98,6 @@ footer
   height: 40px
   margin: 100px auto
   width: 40px
+
+.footer-highlight
+  color: $white
