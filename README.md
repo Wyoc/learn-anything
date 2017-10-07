@@ -21,7 +21,6 @@
 <p align="center"><img width="400"  src="media/logo.png" alt="img"></p>
 
 
-
 This is the main code-base that powers [learn-anything.xyz](https://learn-anything.xyz).
 
 If you want to know more about what we're trying to solve, our plans for the
